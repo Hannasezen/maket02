@@ -120,7 +120,7 @@ h2 {
 
 .flex {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
@@ -280,7 +280,7 @@ h2 {
 	height: 310px;
 	max-width: 300px;
 	flex-grow: 1;
-	flex-basis: 300px;
+	flex-basis: 31.5%;
 	margin-bottom: 20px;
 }
 
@@ -289,7 +289,7 @@ h2 {
 	height: 310px;
 	max-width: 620px;
 	flex-grow: 2;
-	flex-basis: 620px;
+	flex-basis: 60%;
 }
 
 .container div:last-child {
@@ -355,4 +355,60 @@ h2 {
 	font-size: 16px;
 	line-height: 20px;
 	color: #FF4E50;
+}
+
+
+@media  only screen
+and (min-width: 321px)
+and (max-width: 768px) {
+
+	.header {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.partners {
+		max-width: 492px;
+		margin: 0 auto;
+	}
+
+	.partner {
+		width: 50%;
+		max-width: 236px;
+		margin-bottom: 36px;
+	}
+
+	.ideas {
+		max-width: 748px;
+		justify-content: space-between;
+	}
+
+	.ideas>div {
+	}
+
+	.idea1,
+	.idea2,
+	.idea3,
+	.idea4,
+	.idea7 {
+		max-width: 236px;
+	}
+
+	.idea5,
+	.idea6 {
+		max-width: 492px;
+	}
+
+	.footer {
+		padding-left: 40px;
+		padding-right: 36px;
+	}
+
+}
+
+@media  only screen
+and (max-width: 320px) {
+	.flex {
+		flex-flow: column;
+	}
 }
