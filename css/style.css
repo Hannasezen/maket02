@@ -194,16 +194,16 @@ h2 {
 }
 
 .work1 {
-		background: url(../img/step1.png) no-repeat;
-	}
+	background: url(../img/step1.png) no-repeat;
+}
 
-	.work2 {
-		background: url(../img/step2.png) no-repeat;
-	}
+.work2 {
+	background: url(../img/step2.png) no-repeat;
+}
 
-	.work3 {
-		background: url(../img/step3.png) no-repeat;
-	}
+.work3 {
+	background: url(../img/step3.png) no-repeat;
+}
 
 .work_content {
 	text-align: left;
@@ -547,21 +547,24 @@ h2 {
 	}
 
 	.work {
+		margin: 0 auto;
 		width: 100%;
+		width: 300px;
 		max-height: 240px;
 		margin-bottom: 10px;
+		background-size: cover;
 	}
 
 	.work1 {
-		background: url(../img/step1_mobile.png);
+		background: url(../img/step1_mobile.png) no-repeat;
 	}
 
 	.work2 {
-		background: url(../img/step2_mobile.png);
+		background: url(../img/step2_mobile.png) no-repeat;
 	}
 
 	.work3 {
-		background: url(../img/step3_mobile.png);
+		background: url(../img/step3_mobile.png) no-repeat;
 	}
 
 	.work_content {
