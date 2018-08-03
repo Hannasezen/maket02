@@ -190,7 +190,20 @@ h2 {
 	flex-flow: column;
 	justify-content: flex-end;
 	color: #fff;
+	background-size: cover;
 }
+
+.work1 {
+		background: url(../img/step1.png) no-repeat;
+	}
+
+	.work2 {
+		background: url(../img/step2.png) no-repeat;
+	}
+
+	.work3 {
+		background: url(../img/step3.png) no-repeat;
+	}
 
 .work_content {
 	text-align: left;
@@ -263,6 +276,34 @@ h2 {
 	color: #fff;
 	flex-wrap: wrap;
 	max-width: 940px;
+}
+
+.idea1 {
+	background: url(../img/idea1.png) no-repeat;
+}
+
+.idea2 {
+	background: url(../img/idea2.png) no-repeat;
+}
+
+.idea3 {
+	background: url(../img/idea3.png)  no-repeat;
+}
+
+.idea4 {
+	background: url(../img/idea4.png) no-repeat;
+}
+
+.idea5 {
+	background: url(../img/idea5.png) no-repeat;
+}
+
+.idea6 {
+	background: url(../img/idea6.png) no-repeat;
+}
+
+.idea7 {
+	background: url(../img/idea7.png) no-repeat;
 }
 
 .idea1,
@@ -511,6 +552,18 @@ h2 {
 		margin-bottom: 10px;
 	}
 
+	.work1 {
+		background: url(../img/step1_mobile.png);
+	}
+
+	.work2 {
+		background: url(../img/step2_mobile.png);
+	}
+
+	.work3 {
+		background: url(../img/step3_mobile.png);
+	}
+
 	.work_content {
 		margin-left: 20px;
 	}
@@ -551,6 +604,35 @@ h2 {
 	.ideas {
 		align-items: center;
 	}
+
+	.idea1 {
+		background: url(../img/idea1_mobile.png) no-repeat;
+	}
+
+	.idea2 {
+		background: url(../img/idea2_mobile.png) no-repeat;
+	}
+
+	.idea3 {
+		background: url(../img/idea3_mobile.png)  no-repeat;
+	}
+
+	.idea4 {
+		background: url(../img/idea4_mobile.png) no-repeat;
+	}
+
+	.idea5 {
+		background: url(../img/idea5_mobile.png) no-repeat;
+	}
+
+	.idea6 {
+		background: url(../img/idea6_mobile.png) no-repeat;
+	}
+
+	.idea7 {
+		background: url(../img/idea7_mobile.png) no-repeat;
+	}
+
 
 	.ideas div {
 		max-width: 300px;
