@@ -2,7 +2,7 @@
 /* reset */
 
 
-body, div, ul, ol, li {
+body, div, ul, ol, li, input, button {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -139,6 +139,10 @@ h2 {
 	margin-bottom: 160px;
 }
 
+.header a {
+	color: #fff;
+}
+
 .header_logo {
 	font-family: 'Montserrat';
 	font-size: 20px;
@@ -150,7 +154,6 @@ h2 {
 }
 
 .autho a {
-	color: #fff;
 	margin-right: 19px;
 	vertical-align: center;
 }
@@ -205,12 +208,12 @@ h2 {
 
 .work_content h3 {
 	color: #fff;
-	font-style: 24px;
+	font-size: 24px;
 	line-height: 14px;
 }
 
 .work_content p {
-	font-style: 14px;
+	font-size: 14px;
 	line-height: 14px;
 }
 
@@ -346,7 +349,7 @@ h2 {
 /* footer section */
 
 .footer {
-	padding: 40px 0 0 0;
+	padding: 40px 0;
 	border-top: 2px solid #FF4E50;
 	font-family: 'Montserrat';
 }
@@ -357,14 +360,64 @@ h2 {
 	color: #FF4E50;
 }
 
+.footer .nav {
+	text-align: left;
+}
 
-@media  only screen
-and (min-width: 321px)
-and (max-width: 768px) {
+
+.footer .nav h3 {
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+.partners_link a {
+	color: #444;
+}
+
+.footer .nav a {
+	font-family: 'RobotoLight';
+	font-size: 14px;
+	line-height: 26px;
+	color: #999;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.footer .design {
+	font-size: 10px;
+	color: #CCCCCC;
+	font-family: 'MontserratBold';
+	text-align: right;
+}
+
+.footer .design_logo {
+	margin-top: 10px;
+	max-width: 110px;
+}
+
+
+
+
+
+
+
+/* media queries */
+
+
+@media  only screen and (max-width: 768px) {
+
+	.container {
+		width: 99%;
+	}
 
 	.header {
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+	.promo_content {
+		max-width: 70%;
 	}
 
 	.partners {
@@ -381,6 +434,7 @@ and (max-width: 768px) {
 	.ideas {
 		max-width: 748px;
 		justify-content: space-between;
+		margin: 0 auto;
 	}
 
 	.ideas>div {
@@ -406,9 +460,148 @@ and (max-width: 768px) {
 
 }
 
-@media  only screen
-and (max-width: 320px) {
+@media  only screen and (max-width: 330px) {
 	.flex {
 		flex-flow: column;
 	}
-}
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	.promo {
+		padding-top: 20px;
+		padding-bottom: 150px;
+		margin-bottom: 0;
+	}
+
+	.header {
+		padding: 0;
+		flex-flow: column-reverse;
+		justify-content: space-between;
+		height: 155px;
+		margin-bottom: 30px;
+	}
+
+	.promo h1 {
+		font-size: 20px;
+	}
+
+	.promo_content {
+		max-width: 88%;
+	}
+
+	.promo .text {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.promo .btn_red {
+		width: 100%;
+	}
+
+	.works_cover {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+
+	.work {
+		width: 100%;
+		max-height: 240px;
+		margin-bottom: 10px;
+	}
+
+	.work_content {
+		margin-left: 20px;
+	}
+
+	.work_content h3 {
+		margin-bottom: 30px;
+	}
+
+	.work_content p {
+		margin-top: 0;
+	}
+
+	.partners {
+		width: 100%;
+		margin-bottom: 37px;
+	}
+
+	.partners_cover {
+		padding-bottom: 0;
+	}
+
+	li:last-child {
+		margin-bottom: 0;
+		color: red;
+	}
+
+	.partner {
+		margin: 0 auto;
+		width: 100%;
+		margin-bottom: 17px;
+	}
+
+	.ideas_cover {
+		padding-top: 35px;
+		padding-bottom: 0;
+	}
+
+	.ideas {
+		align-items: center;
+	}
+
+	.ideas div {
+		max-width: 300px;
+		width: 100%;
+		max-height: 120px;
+	}
+
+	.ideas .title {
+		width: 100%;
+	}
+
+	.idea5,
+	.idea6 {
+		margin-bottom: 20px;
+	}
+
+	.create_cover {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.create h2 {
+		max-width: 70%;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.create .text {
+		margin-bottom: 15px;
+	}
+
+	.form {
+		flex-flow: column;
+		justify-content: center;
+		max-width: 280px;
+	}
+
+	.form input,
+	.form button {
+		height: 40px;
+		width: 100%;
+	}
+
+	.form input {
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+}	
