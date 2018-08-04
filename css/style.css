@@ -255,7 +255,7 @@ h2 {
 
 .name {
 	font-family: 'MontserratBold';
-	font-style: 14px;
+	font-size: 14px;
 	margin-bottom: 20px;
 	color: #444;
 }
@@ -407,7 +407,7 @@ h2 {
 }
 
 
-.footer .nav h3 {
+.footer h3 {
 	font-size: 14px;
 	margin-bottom: 20px;
 	color: #444;
@@ -692,6 +692,36 @@ h2 {
 	.footer {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.footer .logo {
+		margin-bottom: 15px;
+	}
+
+	.footer .nav {
+		text-align: center;
+	}
+
+	.footer .nav {
+		max-width: 200px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.nav_links li {
+		display: inline-block;
+	}
+
+	.partners_link {
+		margin-bottom: 15px;
+	}
+
+	.footer .design {
+		text-align: center; 
+	}
+
+	.design_logo {
+		margin: 0 auto;
 	}
 
 
