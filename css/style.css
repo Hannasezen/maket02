@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	text-align: center;
+	min-width: 320px;
 }
 
 
@@ -370,7 +371,7 @@ h2 {
 
 .create form {
 	margin: 0 auto;
-	width: 482px;
+	max-width: 482px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -446,7 +447,7 @@ h2 {
 /* media queries */
 
 
-@media  only screen and (max-width: 768px) {
+@media  only screen and (min-width: 768px) and (max-width: 1023px) {
 
 	.container {
 		width: 99%;
@@ -501,7 +502,7 @@ h2 {
 
 }
 
-@media  only screen and (max-width: 330px) {
+@media  only screen and (min-width: 320px) and (max-width: 767px) {
 	.flex {
 		flex-flow: column;
 	}
@@ -549,7 +550,7 @@ h2 {
 	.work {
 		margin: 0 auto;
 		width: 100%;
-		width: 300px;
+		max-width: 300px;
 		max-height: 240px;
 		margin-bottom: 10px;
 		background-size: cover;
