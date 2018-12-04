@@ -134,8 +134,8 @@ h2 {
 	max-width: 1440px;
 	margin: 0 auto;
 	color: #fff;
-	padding-bottom: 220px;
-	margin-bottom: 47px;
+	height: 100vh;
+	margin-bottom: 50px;
 }
 
 .header {
@@ -147,36 +147,33 @@ h2 {
 	color: #fff;
 }
 
-.header_logo {
+.header__logo {
 	font-family: 'Montserrat';
 	font-size: 20px;
 	font-weight: bold;
 }
 
-.autho li {
+.auth__item {
 	display: inline-block;
-}
-
-.autho a {
 	margin-right: 19px;
 	vertical-align: center;
 }
 
-.promo_content {
-	max-width: 50%;
+.promo_info {
+	max-width: 70%;
 	margin: 0 auto;
+	font-size: 24px;
+	line-height: 24px;
 }
 
-.promo_content h1 {
+.promo__title {
 	font-size: 52px;
 	color: #fff;
 	margin-bottom: 35px;
 	line-height: 1.2em;
 }
 
-.text {
-	font-size: 24px;
-	line-height: 24px;
+.promo__text {
 	margin-bottom: 33px;
 }
 
@@ -367,6 +364,7 @@ h2 {
 .create .text {
 	font-size: 18px;
 	color: #666;
+	margin-bottom: 30px;
 }
 
 .create form {
