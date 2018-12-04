@@ -1,7 +1,6 @@
 
 /* reset */
 
-
 body, div, ul, ol, li, input, button {
 	margin: 0;
 	padding: 0;
@@ -19,7 +18,6 @@ a {
 
 
 /* fonts styles */
-
 
 @font-face {
   font-family: 'MontserratRegular';
@@ -83,28 +81,26 @@ h2 {
 
 /* for buttons */
 
-.btn_white,
-.btn_red,
-.btn_red_white {
+.btn {
 	font-size: 14px;
 	color: #fff;
 	border-radius: 40px;
 	cursor: pointer;
 }
 
-.btn_white {
+.btn-color-white {
 	border: 2px solid #FFFFFF;
 	padding: 7px 17px;
 }
 
-.btn_red {
+.btn-color-red {
 	font-family: 'MontserratBold';
 	background: #FF4E50;
 	border: none;
 	padding: 10px 20px;
 }
 
-.btn_red_white {
+.btn-color-redWhite {
 	padding: 10px 20px;
 	font-family: 'MontserratBold';
 	border: 2px solid #FF4E50;
@@ -535,7 +531,7 @@ h2 {
 		margin-bottom: 20px;
 	}
 
-	.promo .btn_red {
+	.promo .btn-color-ed {
 		width: 100%;
 	}
 
