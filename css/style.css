@@ -127,7 +127,7 @@ h2 {
 
 /* Promo section */
 
-.promo {
+.promo-background {
 	background: url(../img/promo_bg.jpg) no-repeat;
 	background-size: cover;
 	background-position: center top;
@@ -213,6 +213,8 @@ h2 {
 	text-align: left;
 	max-width: 250px;
 	margin-left: 25px;
+	font-size: 14px;
+	line-height: 14px;
 }
 
 .work_content button {
@@ -226,11 +228,6 @@ h2 {
 .work_content h3 {
 	color: #fff;
 	font-size: 24px;
-	line-height: 14px;
-}
-
-.work_content p {
-	font-size: 14px;
 	line-height: 14px;
 }
 
@@ -443,10 +440,6 @@ h2 {
 
 
 
-
-
-
-
 /* media queries for tablet*/
 
 
@@ -482,8 +475,6 @@ h2 {
 		margin: 0 auto;
 	}
 
-	.ideas>div {
-	}
 
 	.idea1,
 	.idea2,
