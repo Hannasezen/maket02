@@ -11,44 +11,44 @@
 </head>
 <body>
 	<div class="wrapper"><!--root element-->
-		<div class="promo-background"> <!--Блок фона начального экрана-->
-			<div class="container">
+		<section class="promo-background"> <!--background image for header and promo-->
+			<div class="container" role="banner">
 				<header class="header flex">
-					<div class="header__logo upper">
+					<div class="header__logo">
 						<a href="#">Dreamshare</a>
 					</div>
-					<ul class="auth">
-						<li class="auth__item"><a href="#" class="capit">Войти</a></li>
-						<li class="auth__item"><a href="#" class="btn btn-color-white capit">Присоединиться</a></li>
+					<ul class="auth" role="log"><!--authorization block-->
+						<li class="auth__item"><a href="#" class="auth__btn btn">Войти</a></li>
+						<li class="auth__item"><a href="#" class="auth__btn btn btn-color-white">Присоединиться</a></li>
 					</ul>
 				</header>
-				<div class="promo_info">
-					<h1 class="promo__title upper">ПОДЕЛИСЬ СВОИМ ИДЕАЛЬНЫМ ОТПУСКОМ</h1>
-					<div class="promo__text">И воплоти свои мечты в реальность с новыми друзьями</div>
-					<button class="btn btn-color-red">Найти партнеров для поездки</button>
-				</div>
+				<section class="promo-info"><!--info about site-->
+					<h1 class="promo-info__title upper">ПОДЕЛИСЬ СВОИМ ИДЕАЛЬНЫМ ОТПУСКОМ</h1>
+					<div class="promo-info__text">И воплоти свои мечты в реальность с новыми друзьями</div>
+					<button class="promo-info__btn btn btn-color-red">Найти партнеров для поездки</button>
+				</section>
 			</div>
-		</div>
-		<div class="works_cover">
+		</section>
+		<section class="works-cover">
 			<div class="container">
-				<h2>Как Dreamshare работает?</h2>
-				<div class="works flex">
-					<div class="work work1">
-						<div class="work_content">
+				<h2 class="works__title">Как Dreamshare работает?</h2>
+				<div class="works flex"><!--How it works block-->
+					<div class="work works__step works__step1">
+						<div class="work__content">
 							<button class="btn btn-color-red upper">Шаг 1</button>
 							<h3>Регистрация</h3>
 							<p>Зарегистрируйся и ты сможешь найти друзей, которые разделяют твою мечту идеального отпуска</p>
 						</div>
 					</div>
-					<div class="work work2">
-						<div class="work_content">
+					<div class="work works__step works__step2">
+						<div class="work__content">
 							<button class="btn btn-color-red upper">Шаг 2</button>
 							<h3>Планирование</h3>
 							<p>Спланируйте все до мельчайших подробностей. Карта, расписание, билеты и все необходимое для путешествия...</p>
 						</div>					
 					</div>
-					<div class="work work3">
-						<div class="work_content">
+					<div class="work works__step works__step3">
+						<div class="work__content">
 							<button class="btn btn-color-red upper">Шаг 3</button>
 							<h3>Самое приятное</h3>
 							<p>...и наслаждайтесь отличным отдыхом в замечательной компании друзей!</p>
@@ -56,8 +56,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="partners_cover">
+		</section>
+		<section class="partners_cover">
 			<div class="container">
 				<h2>Знакомьтесь с нашими партнерами...</h2>
 				<ul class="partners flex">
@@ -84,8 +84,8 @@
 				</ul>
 				<button class="btn btn-color-redWhite">Другие партнеры</button>
 			</div>
-		</div>
-		<div class="ideas_cover">
+		</section>
+		<section class="ideas_cover">
 			<div class="container">
 				<h2>Знакомьтесь с лучшими идеями проведения отпуска</h2>
 				<div class="ideas flex">
@@ -101,7 +101,7 @@
 					</div>
 					<div class="idea3">
 						<div class="title">
-							<div class="title_inner">Экстремальный спорт и Экспедиции</div>
+							Экстремальный спорт и Экспедиции
 						</div>
 					</div>
 					<div class="idea4">
@@ -118,33 +118,33 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="create_cover">
+		</section>
+		<section class="create_cover">
 			<div class="container">
 				<div class="create">
 					<h2>Начать планировать свой отпуск</h2>
-					<div class="text">
+					<div class="text" role="text">
 						Привет! А какой отпуск интересует тебя?
 					</div>
 					<form action="send" class="form">
-						<input type="text" class="interests" value="Введите ваши интересы...">
+						<input type="text" role="search" class="interests" value="Введите ваши интересы...">
 						<button class="btn btn-color-red">Найти партнеров</button>
 					</form>
 				</div>
 			</div>
-		</div>
+		</section>
 		<footer class="footer">
 			<div class="container flex">
 				<div class="logo upper">Dreamshare</div>
 				<div class="nav">
 					<h3>Компания</h3>
-					<ul class="nav_links">
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Контакты</a></li>
-						<li><a href="#">Отзывы</a></li>
-						<li><a href="#">Блог</a></li>
-						<li><a href="#">Конфиденциальность</a></li>
-						<li><a href="#">Помощь</a></li>
+					<ul class="nav_links" role="menu">
+						<li role="menuitem"><a href="#">О нас</a></li>
+						<li role="menuitem"><a href="#">Контакты</a></li>
+						<li role="menuitem"><a href="#">Отзывы</a></li>
+						<li role="menuitem"><a href="#">Блог</a></li>
+						<li role="menuitem"><a href="#">Конфиденциальность</a></li>
+						<li role="menuitem"><a href="#">Помощь</a></li>
 					</ul>
 				</div>
 				<div class="partners_link">
